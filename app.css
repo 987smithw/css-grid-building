@@ -1,0 +1,57 @@
+/* -- Clearfix -- */
+  .row:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.wrapper {
+  margin: auto;
+  width: 980px;
+}
+
+.row {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 5px;
+
+}
+.col-6,
+.col-4,
+.col-8 {
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 5px;
+  float: left;
+  margin-left:10px;
+  margin-bottom:20px;
+  text-align: center;
+}
+.col-4 {
+  width: 300px;
+  height: 100px;
+}
+
+.col-8 {
+  width: 620px;
+  height: 300px;
+}
+
+.col-1 {
+  width: 50px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 5px;
+  float: left;
+  margin-bottom: 5px;
+}
+
+.col-6 {
+  width: 460px;
+  height: 200px;
+}
